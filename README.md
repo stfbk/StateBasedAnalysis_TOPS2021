@@ -1,1 +1,8 @@
 # StateBasedAnalysis_TOPS2021
+This repository contains the complementary files referred to in the paper "**A Multi-Layered Methodology to Assist the Secure and Risk-Aware Design of Authentication Protocols: Application to Passwordless Solutions based on eID Cards**", submitted to the *ACM Transactions on Privacy and Security* Journal.
+
+In our paper, we define a methodology to analyse the security and risk of authentication procedures, in order to provide security designers with the information they need to fully understand the security level of their protocols, both from a quantitative and qualitative perspective. For concreteness, we apply the methodology to the world of passwordless authentication relying on eID cards protected with PIN or biometrics. In particular, we analyse two protocols -- based on push notifications and QR codes -- that we have designed to let users authenticate from their personal computer's browser by using their mobile device as a card reader. We also propose some suitable security mitigations and evaluate their role in the context of our protocols.
+
+The state-based layer of our methodology requires to model protocols through the specification language **ASLan++**, a high-level language that formalizes the interactions between the different protocol roles. These models have then been given in input to **SATMC** (SAT-based Model Checker), an open and flexible platform for model-checking security protocols via reduction to SAT.
+
+Thereby, this repository contains ASLan++ file and analyses outputs.
